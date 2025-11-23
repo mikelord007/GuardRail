@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-space-grotesk)", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'walrus-neon': '#ccff00',
+        'walrus-pink': '#ff00cc',
+        'walrus-cyan': '#00ccff',
       },
     },
   },
